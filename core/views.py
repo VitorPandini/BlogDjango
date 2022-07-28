@@ -2,5 +2,5 @@ from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 
-def hello(request):
-    return HttpResponse("Hello World")
+def post_list(request):
+    return render(request,'core/post_list.html', {})
